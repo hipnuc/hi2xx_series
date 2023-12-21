@@ -1,0 +1,6 @@
+<launch>
+	<arg name="gps_package" default="spec" doc="package type [spec]"/>
+	
+	<include file="$(find gps_launch)/launch/gps_$(arg gps_package)_msg.launch"/>
+	
+</launch>

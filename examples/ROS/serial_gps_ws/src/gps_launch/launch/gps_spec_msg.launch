@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="serial_gps" name="gps_sonser_spec" type="serial_gps"/>
+	<node pkg="serial_gps" name="sub_spec" type="sub_spec" output="screen"/>
+
+</launch>
